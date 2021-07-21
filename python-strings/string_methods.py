@@ -36,3 +36,7 @@ print(name.replace('s','$'))
 # 10-split():splits the entire string into parts based on element.
 a='python is an easy language'
 print(a.split('an'))
+
+# 11-join():Join all items in a tuple into a string, using a hash character as separator:
+mylist=['1','2','3']
+print('-'.join(mylist))
